@@ -8,7 +8,7 @@ const btnCopiar = document.querySelector("#copiar");
 const contenedorErrores = document.querySelector(".contenedor-errores");
 
 function validarMensaje () {
-    // Borrar errores previos
+    // Borrar errores 
     let erroresPrevios = contenedorErrores.querySelectorAll(".error");
     for (let err of erroresPrevios) {
         contenedorErrores.removeChild(err);
